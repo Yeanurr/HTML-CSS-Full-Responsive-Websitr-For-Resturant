@@ -22,7 +22,7 @@ body {
 justify-content: center;
     text-align: center;
     align-items: center;
-    color:white;
+    
 
 }
 #hero::before {
@@ -38,10 +38,45 @@ justify-content: center;
     background-repeat: no-repeat;
     background-attachment:fixed;
     filter: brightness(50%);
-
+ 
 
     
 }
 #hero_content{
     position: absolute;
+   
+}
+h1{
+  color: white;
+ 
+  font-family:cursive;
+font-size: 2.8rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+text-shadow: 2px 2px 2px #000;
+}
+ h3{
+  color: white;
+ 
+  font-family: cursive;
+font-size: 2rem;
+margin-bottom: 1rem;
+text-shadow: 2px 2px 2px #3e2e2e;
+}
+ #hero_content a{
+    color:rgb(244, 183, 92);
+    padding:3px 20px;
+    border:1px solid black;
+    border-radius: 25px;
+    font-family: cursive;
+    background-color: rgb(221, 107, 107);
+    color: white;
+   text-decoration: none;
+}
+#hero_content a:hover{
+    background-color: blue;
+
+}
+#navbar  {
+    position:gird;
 }
